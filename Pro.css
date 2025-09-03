@@ -1,0 +1,136 @@
+ *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+ }
+ html , body {
+    height: 100%;
+    width: 100%;
+ }
+  
+ #main{
+   height: 100%;
+   width: 100%;
+   background-color:  #F0F2F0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #9091e7, #F0F2F0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #8796dd, #F0F2F0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+ }
+
+ #nav{
+height: 100px;  
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0px 40px;
+ 
+ }
+
+ #nav-part1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    gap: 5px;
+ }
+ #nav h3{
+   font-size: 20px;
+   border: 2px solid #000;
+   font-weight: 500;
+   padding: 5px 10px;
+   border-radius: 50px;
+
+ }
+
+ #nav-part1>i{
+   font-size: 20px;
+   border: 2px solid #000;
+   font-weight: 500;
+   padding: 5px 10px;
+   border-radius: 50px;
+
+ }
+
+ #nav h1{
+   font-weight: 500;
+   font-size: 20px;
+   text-transform: uppercase;
+   font-family:Arial, Helvetica, sans-serif
+ }
+ #nav button{
+   padding: 7px 12px;
+   border-radius: 50px;
+    
+   border: 1.5px solid #000;
+   font-size: 16px;
+   font-weight:600;
+
+ 
+ }
+ #btn2{
+color: #fff;
+background-color:   #9091e7;
+
+ }
+  
+ #main>h1{
+  color: #000;
+  font-size: 100px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+   text-align: center;
+
+ }
+
+ img{
+  height: 330px;
+  width: 270px;
+  object-fit: cover;
+   
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 20px;
+
+ }
+
+  #img1{
+    transform: translate(-50%,-50%) rotate(-20deg);
+  }
+
+  #img2{
+    transform: translate(-50%,-50%) rotate(-10deg);
+  }
+
+  #text1{
+    position: absolute;
+    bottom: 5%;
+    left: 2%;
+    font-size: 13px;
+  }
+   
+  #nav-part2>i{
+    position: absolute;
+    left:42%;
+    bottom: 90%;
+    font-size: 25px;
+
+
+    
+    
+  }
+  #Scroll{
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    font-size: 30px;
+    font-weight: 300;
+  }
